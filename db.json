@@ -1,0 +1,58 @@
+{
+  "gestao_profissionais": [
+    {
+      "dt_inclusao": "19/12/2019 10:10:10",
+      "dt_validade": "19/05/2020 10:10:10",
+      "status_profissional": "",
+      "ativo": true,
+      "renovar": true,
+      "cliente": {
+        "codigo": 543,
+        "razao_social": "BUONNY PROJETOS E SERVICOS"
+      },
+      "usuario_solicitacao": {
+        "codigo": 123,
+        "apelido": "Apelido do usuário solicitação",
+        "nome": "Nome do usuário solicitação"               
+      },
+      "profissional":{
+        "rg": "1234567",
+        "cpf": "12345678900",
+        "nome": "Nome do profissional",
+        "categoria": "Agregado",
+        "dt_cnh_vencimento": "20/10/2022 00:00:00"
+      },
+      "produto":{
+        "codigo": 2,
+        "descricao": "Plus"
+      }
+    },
+    {
+      "dt_inclusao": "19/12/2019 10:10:10",
+      "dt_validade": "19/05/2020 10:10:10",
+      "status_profissional": "",
+      "ativo": true,
+      "renovar": true,
+      "cliente": {
+        "codigo": 543,
+        "razao_social": "BUONNY PROJETOS E SERVICOS"
+      },
+      "usuario_solicitacao": {
+        "codigo": 123,
+        "apelido": "Apelido do usuário solicitação",
+        "nome": "Nome do usuário solicitação"               
+      },
+      "profissional":{
+        "rg": "44444",
+        "cpf": "55555555555",
+        "nome": "Nome do profissional 2",
+        "categoria": "Carreteiro",
+        "dt_cnh_vencimento": "20/10/2025 00:00:00"
+      },
+      "produto":{
+        "codigo": 1,
+        "descricao": "Standard"
+      }
+    }
+  ]
+}
