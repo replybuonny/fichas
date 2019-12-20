@@ -1,18 +1,4 @@
 {
-  "relatorio_ct": [
-    {
-      "numero": "383601",
-      "ct": "5469437",
-      "ano": "2019",
-      "produto": {
-        "descricao": "TELECONSULT PLUS"
-      },
-      "profissional": {
-        "cpf":"08559992766",
-        "nome": "EDUARDO SILVA ALVES"	
-      }
-    }
-  ],
   "gestao_profissionais": [
     {
       "dt_inclusao": "19/12/2019 10:10:10",
