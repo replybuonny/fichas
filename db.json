@@ -1,9 +1,9 @@
 {
   "relatorio_ct": [
     {
-      "numero": 383601,
-      "ct": 5469437,
-      "ano": 2019,
+      "numero": "383601",
+      "ct": "5469437",
+      "ano": "2019",
       "produto": {
         "descricao": "TELECONSULT PLUS"
       },
