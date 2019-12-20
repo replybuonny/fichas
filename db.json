@@ -3,7 +3,15 @@
     {
       "numero": "383601",
       "ct": "5469437",
-      "ano": "2019"
+      "ano": "2019",
+      "produto":{
+        "codigo": 2,
+        "descricao": "Plus"
+      },
+      "profissional":{
+        "cpf": "12345678900",
+        "nome": "Nome do profissional"
+      }
     }
   ],
   "gestao_profissionais": [
