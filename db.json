@@ -1,75 +1,88 @@
 {
-   "demonstrativo_ct": [
+  "demonstrativo_ct": [
     {
       "numero": "383601",
       "ct": "5469437",
       "ano": "2019",
-      "produto":{
+      "produto": {
         "codigo": 2,
         "descricao": "Plus"
       },
-      "profissional":{
+      "profissional": {
         "cpf": "12345678900",
         "nome": "Nome do profissional"
       }
     }
   ],
-  "gestao_profissionais": [
-    {
-      "dt_inclusao": "19/12/2019 10:10:10",
-      "dt_validade": "19/05/2020 10:10:10",
-      "status_profissional": "EM ANÁLISE",
-      "ativo": true,
-      "renovar": true,
-      "permitir_acoes": false,
-      "cliente": {
-        "codigo": 543,
-        "razao_social": "BUONNY PROJETOS E SERVICOS"
-      },
-      "usuario_solicitacao": {
-        "codigo": 123,
-        "apelido": "Apelido do usuário solicitação",
-        "nome": "Nome do usuário solicitação"               
-      },
-      "profissional":{
-        "rg": "1234567",
-        "cpf": "12345678900",
-        "nome": "Nome do profissional",
-        "categoria": "Agregado",
-        "dt_cnh_vencimento": "20/10/2022 00:00:00"
-      },
-      "produto":{
-        "codigo": 2,
-        "descricao": "Plus"
-      }
-    },
-    {
-      "dt_inclusao": "19/12/2019 10:10:10",
-      "dt_validade": "19/05/2020 10:10:10",
-      "status_profissional": "PERFIL ADEQUADO AO RISCO",
-      "ativo": true,
-      "renovar": true,
-      "permitir_acoes": true,
-      "cliente": {
-        "codigo": 543,
-        "razao_social": "BUONNY PROJETOS E SERVICOS"
-      },
-      "usuario_solicitacao": {
-        "codigo": 123,
-        "apelido": "Apelido do usuário solicitação",
-        "nome": "Nome do usuário solicitação"               
-      },
-      "profissional":{
-        "rg": "44444",
-        "cpf": "55555555555",
-        "nome": "Nome do profissional 2",
-        "categoria": "Carreteiro",
-        "dt_cnh_vencimento": "20/10/2025 00:00:00"
-      },
-      "produto":{
-        "codigo": 1,
-        "descricao": "Standard"
+  "gestao_profissionais": {
+    "status": 200,
+    "result": {
+      "data": {
+        "profissionais": [
+          {
+            "dt_inclusao": "19/12/2019 10:10:10",
+            "dt_validade": "19/05/2020 10:10:10",
+            "status_profissional": "EM ANÁLISE",
+            "ativo": true,
+            "renovar": true,
+            "permitir_acoes": false,
+            "cliente": {
+              "codigo": 543,
+              "razao_social": "BUONNY PROJETOS E SERVICOS"
+            },
+            "usuario_solicitacao": {
+              "codigo": 123,
+              "apelido": "Apelido do usuário solicitação",
+              "nome": "Nome do usuário solicitação"
+            },
+            "profissional": {
+              "rg": "1234567",
+              "cpf": "12345678900",
+              "nome": "Nome do profissional",
+              "categoria": "Agregado",
+              "dt_cnh_vencimento": "20/10/2022 00:00:00"
+            },
+            "produto": {
+              "codigo": 2,
+              "descricao": "Plus"
+            }
+          },
+          {
+            "dt_inclusao": "19/12/2019 10:10:10",
+            "dt_validade": "19/05/2020 10:10:10",
+            "status_profissional": "PERFIL ADEQUADO AO RISCO",
+            "ativo": true,
+            "renovar": true,
+            "permitir_acoes": true,
+            "cliente": {
+              "codigo": 543,
+              "razao_social": "BUONNY PROJETOS E SERVICOS"
+            },
+            "usuario_solicitacao": {
+              "codigo": 123,
+              "apelido": "Apelido do usuário solicitação",
+              "nome": "Nome do usuário solicitação"
+            },
+            "profissional": {
+              "rg": "44444",
+              "cpf": "55555555555",
+              "nome": "Nome do profissional 2",
+              "categoria": "Carreteiro",
+              "dt_cnh_vencimento": "20/10/2025 00:00:00"
+            },
+            "produto": {
+              "codigo": 1,
+              "descricao": "Standard"
+            }
+          }
+        ],
+        "pagination": {
+          "count": "3",
+          "current": 1,
+          "perpage": 30,
+          "lastpage": 1
+        }
       }
     }
-  ]
+  }
 }
