@@ -21,6 +21,7 @@
       "status_profissional": "EM ANÁLISE",
       "ativo": true,
       "renovar": true,
+      "permitir_acoes": false,
       "cliente": {
         "codigo": 543,
         "razao_social": "BUONNY PROJETOS E SERVICOS"
@@ -48,6 +49,7 @@
       "status_profissional": "PERFIL ADEQUADO AO RISCO",
       "ativo": true,
       "renovar": true,
+      "permitir_acoes": true,
       "cliente": {
         "codigo": 543,
         "razao_social": "BUONNY PROJETOS E SERVICOS"
