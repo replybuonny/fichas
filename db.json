@@ -36,6 +36,7 @@
               "nome": "Nome do usuário solicitação"
             },
             "profissional": {
+              "codigo": 123,
               "rg": "1234567",
               "cpf": "12345678900",
               "nome": "Nome do profissional",
@@ -64,6 +65,7 @@
               "nome": "Nome do usuário solicitação"
             },
             "profissional": {
+              "codigo": 456,
               "rg": "44444",
               "cpf": "55555555555",
               "nome": "Nome do profissional 2",
